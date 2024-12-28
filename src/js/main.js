@@ -75,6 +75,9 @@ function iniciarGame() {
         });
         gameIniciado = true;
 
+        desbloquearSection2()
+        sortearPersonagem()
+
     } else {
         alert('ATENÇÃO!! Você precisa selecionar um personagem antes de iniciar!')
     }
@@ -85,3 +88,17 @@ function eliminarPersonagem(classePersonagem) {
     eliminar.classList.add('eliminado');
 }
 
+function desbloquearSection2() {
+    const inicio = document.querySelector('.section-2');
+    inicio.classList.add('desbloquear-section-2');  
+}
+
+function sortearPersonagem() {
+    const personagemSorteado = Math.floor(Math.random()*20)
+    console.log(personagemSorteado)
+    const personagem = eval('personagem' + personagemSorteado);
+    console.log(personagem.nomePersonagem)
+}
+
+//Olá, eu sou a Anna, eu já escolhi meu personagem também, então vamos jogar!!
+//Você pode utilizar os campos abaixo para fazer perguntas sobre meu personagem e depois utilizar os botões de "Eliminar Personagem" quando tiver certeza que aquele não é o personagem correto!

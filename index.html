@@ -8,314 +8,322 @@
 </head>
 <body>
     <main class="container">
-        <h1>Jogo Cara A Cara</h1>
-        <p class="descricao">Escolha seu personagem para jogar:</p>
-        <div class="palpites"></div>
-        <div class="cardsPersonagens">
+        <section class="section-1">
+            <h1>Jogo Cara A Cara</h1>
+            <p class="descricao">Escolha seu personagem para jogar:</p>
+            <div class="palpites"></div>
+            <div class="cardsPersonagens">
 
-            <div class="card">
-                <button class="personagens personagem-1" onclick="selecionarPersonagem('personagem-1')">
-                    <img src="src/images/andre.png" alt="andre">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-1"></span></p>
-                        <p>Idade: <span id="idade-1"></span></p>
-                        <p>Altura: <span id="altura-1"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-1"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-1"></span></p>
-                        <p>Acessório: <span id="acessorio-1"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-1')" class="eliminar">Eliminar Personagem</button>
-                </button>
+                <div class="card">
+                    <button class="personagens personagem-1" onclick="selecionarPersonagem('personagem-1')">
+                        <img src="src/images/andre.png" alt="andre">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-1"></span></p>
+                            <p>Idade: <span id="idade-1"></span></p>
+                            <p>Altura: <span id="altura-1"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-1"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-1"></span></p>
+                            <p>Acessório: <span id="acessorio-1"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-1')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-2" onclick="selecionarPersonagem('personagem-2')">
+                        <img src="src/images/claudia.png" alt="claudia">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-2"></span></p>
+                            <p>Idade: <span id="idade-2"></span></p>
+                            <p>Altura: <span id="altura-2"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-2"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-2"></span></p>
+                            <p>Acessório: <span id="acessorio-2"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-2')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-3" onclick="selecionarPersonagem('personagem-3')">
+                        <img src="src/images/erika.png" alt="erika">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-3"></span></p>
+                            <p>Idade: <span id="idade-3"></span></p>
+                            <p>Altura: <span id="altura-3"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-3"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-3"></span></p>
+                            <p>Acessório: <span id="acessorio-3"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-3')" class="eliminar ">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-4" onclick="selecionarPersonagem('personagem-4')">
+                        <img src="src/images/felipe.png" alt="felipe">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-4"></span></p>
+                            <p>Idade: <span id="idade-4"></span></p>
+                            <p>Altura: <span id="altura-4"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-4"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-4"></span></p>
+                            <p>Acessório: <span id="acessorio-4"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-4')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-5" onclick="selecionarPersonagem('personagem-5')">
+                        <img src="src/images/glauber.png" alt="glauber">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-5"></span></p>
+                            <p>Idade: <span id="idade-5"></span></p>
+                            <p>Altura: <span id="altura-5"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-5"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-5"></span></p>
+                            <p>Acessório: <span id="acessorio-5"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-5')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-6" onclick="selecionarPersonagem('personagem-6')">
+                        <img src="src/images/gustaf.png" alt="gustaf">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-6"></span></p>
+                            <p>Idade: <span id="idade-6"></span></p>
+                            <p>Altura: <span id="altura-6"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-6"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-6"></span></p>
+                            <p>Acessório: <span id="acessorio-6"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-6')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-7" onclick="selecionarPersonagem('personagem-7')">
+                        <img src="src/images/henry.png" alt="henry">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-7"></span></p>
+                            <p>Idade: <span id="idade-7"></span></p>
+                            <p>Altura: <span id="altura-7"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-7"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-7"></span></p>
+                            <p>Acessório: <span id="acessorio-7"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-7')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-8" onclick="selecionarPersonagem('personagem-8')">
+                        <img src="src/images/joao.png" alt="joao">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-8"></span></p>
+                            <p>Idade: <span id="idade-8"></span></p>
+                            <p>Altura: <span id="altura-8"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-8"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-8"></span></p>
+                            <p>Acessório: <span id="acessorio-8"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-8')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-9" onclick="selecionarPersonagem('personagem-9')">
+                        <img src="src/images/joaquim.png" alt="joaquim">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-9"></span></p>
+                            <p>Idade: <span id="idade-9"></span></p>
+                            <p>Altura: <span id="altura-9"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-9"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-9"></span></p>
+                            <p>Acessório: <span id="acessorio-9"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-9')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-10" onclick="selecionarPersonagem('personagem-10')">
+                        <img src="src/images/jose.png" alt="jose">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-10"></span></p>
+                            <p>Idade: <span id="idade-10"></span></p>
+                            <p>Altura: <span id="altura-10"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-10"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-10"></span></p>
+                            <p>Acessório: <span id="acessorio-10"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-10')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-11" onclick="selecionarPersonagem('personagem-11')">
+                        <img src="src/images/julia.png" alt="julia">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-11"></span></p>
+                            <p>Idade: <span id="idade-11"></span></p>
+                            <p>Altura: <span id="altura-11"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-11"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-11"></span></p>
+                            <p>Acessório: <span id="acessorio-11"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-11')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-12" onclick="selecionarPersonagem('personagem-12')">
+                        <img src="src/images/kimberlly.png" alt="kimberlly">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-12"></span></p>
+                            <p>Idade: <span id="idade-12"></span></p>
+                            <p>Altura: <span id="altura-12"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-12"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-12"></span></p>
+                            <p>Acessório: <span id="acessorio-12"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-12')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-13" onclick="selecionarPersonagem('personagem-13')">
+                        <img src="src/images/marcia.png" alt="marcia">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-13"></span></p>
+                            <p>Idade: <span id="idade-13"></span></p>
+                            <p>Altura: <span id="altura-13"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-13"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-13"></span></p>
+                            <p>Acessório: <span id="acessorio-13"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-13')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-14" onclick="selecionarPersonagem('personagem-14')">
+                        <img src="src/images/marina.png" alt="marina">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-14"></span></p>
+                            <p>Idade: <span id="idade-14"></span></p>
+                            <p>Altura: <span id="altura-14"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-14"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-14"></span></p>
+                            <p>Acessório: <span id="acessorio-14"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-14')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-15" onclick="selecionarPersonagem('personagem-15')">
+                        <img src="src/images/mikaela.png" alt="mikaela">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-15"></span></p>
+                            <p>Idade: <span id="idade-15"></span></p>
+                            <p>Altura: <span id="altura-15"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-15"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-15"></span></p>
+                            <p>Acessório: <span id="acessorio-15"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-15')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-16" onclick="selecionarPersonagem('personagem-16')">
+                        <img src="src/images/neusa.png" alt="neusa">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-16"></span></p>
+                            <p>Idade: <span id="idade-16"></span></p>
+                            <p>Altura: <span id="altura-16"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-16"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-16"></span></p>
+                            <p>Acessório: <span id="acessorio-16"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-16')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+                
+                <div class="card">
+                    <button class="personagens personagem-17" onclick="selecionarPersonagem('personagem-17')">
+                        <img src="src/images/nicolas.png" alt="nicolas">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-17"></span></p>
+                            <p>Idade: <span id="idade-17"></span></p>
+                            <p>Altura: <span id="altura-17"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-17"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-17"></span></p>
+                            <p>Acessório: <span id="acessorio-17"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-17')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-18" onclick="selecionarPersonagem('personagem-18')">
+                        <img src="src/images/patricia.png" alt="patricia">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-18"></span></p>
+                            <p>Idade: <span id="idade-18"></span></p>
+                            <p>Altura: <span id="altura-18"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-18"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-18"></span></p>
+                            <p>Acessório: <span id="acessorio-18"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-18')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-19" onclick="selecionarPersonagem('personagem-19')">
+                        <img src="src/images/violeta.png" alt="violeta">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-19"></span></p>
+                            <p>Idade: <span id="idade-19"></span></p>
+                            <p>Altura: <span id="altura-19"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-19"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-19"></span></p>
+                            <p>Acessório: <span id="acessorio-19"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-19')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
+
+                <div class="card">
+                    <button class="personagens personagem-20" onclick="selecionarPersonagem('personagem-20')">
+                        <img src="src/images/vitor.png" alt="vitor">
+                        <div class="descricaoPg">
+                            <p>Nome: <span id="nome-20"></span></p>
+                            <p>Idade: <span id="idade-20"></span></p>
+                            <p>Altura: <span id="altura-20"></span></p>
+                            <p>Cor do cabelo: <span id="cabelo-20"></span></p>
+                            <p>Cor dos Olhos: <span id="olhos-20"></span></p>
+                            <p>Acessório: <span id="acessorio-20"></span></p>
+                        </div>
+                        <button onclick="eliminarPersonagem('personagem-20')" class="eliminar">Eliminar Personagem</button>
+                    </button>
+                </div>
             </div>
 
-            <div class="card">
-                <button class="personagens personagem-2" onclick="selecionarPersonagem('personagem-2')">
-                    <img src="src/images/claudia.png" alt="claudia">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-2"></span></p>
-                        <p>Idade: <span id="idade-2"></span></p>
-                        <p>Altura: <span id="altura-2"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-2"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-2"></span></p>
-                        <p>Acessório: <span id="acessorio-2"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-2')" class="eliminar">Eliminar Personagem</button>
-                </button>
+            <button class="inicio" onclick="iniciarGame()">Pronto, vamos Jogar!</button>
+        </section>
+        <section class="section-2">
+            <div class="campoInteracao">
+                <p id="interacao">Olá, eu sou a Anna, eu já escolhi meu personagem também, então vamos jogar!!</p>
+                
+                
             </div>
-
-            <div class="card">
-                <button class="personagens personagem-3" onclick="selecionarPersonagem('personagem-3')">
-                    <img src="src/images/erika.png" alt="erika">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-3"></span></p>
-                        <p>Idade: <span id="idade-3"></span></p>
-                        <p>Altura: <span id="altura-3"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-3"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-3"></span></p>
-                        <p>Acessório: <span id="acessorio-3"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-3')" class="eliminar ">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-4" onclick="selecionarPersonagem('personagem-4')">
-                    <img src="src/images/felipe.png" alt="felipe">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-4"></span></p>
-                        <p>Idade: <span id="idade-4"></span></p>
-                        <p>Altura: <span id="altura-4"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-4"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-4"></span></p>
-                        <p>Acessório: <span id="acessorio-4"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-4')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-5" onclick="selecionarPersonagem('personagem-5')">
-                    <img src="src/images/glauber.png" alt="glauber">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-5"></span></p>
-                        <p>Idade: <span id="idade-5"></span></p>
-                        <p>Altura: <span id="altura-5"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-5"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-5"></span></p>
-                        <p>Acessório: <span id="acessorio-5"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-5')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-6" onclick="selecionarPersonagem('personagem-6')">
-                    <img src="src/images/gustaf.png" alt="gustaf">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-6"></span></p>
-                        <p>Idade: <span id="idade-6"></span></p>
-                        <p>Altura: <span id="altura-6"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-6"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-6"></span></p>
-                        <p>Acessório: <span id="acessorio-6"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-6')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-7" onclick="selecionarPersonagem('personagem-7')">
-                    <img src="src/images/henry.png" alt="henry">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-7"></span></p>
-                        <p>Idade: <span id="idade-7"></span></p>
-                        <p>Altura: <span id="altura-7"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-7"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-7"></span></p>
-                        <p>Acessório: <span id="acessorio-7"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-7')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-8" onclick="selecionarPersonagem('personagem-8')">
-                    <img src="src/images/joao.png" alt="joao">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-8"></span></p>
-                        <p>Idade: <span id="idade-8"></span></p>
-                        <p>Altura: <span id="altura-8"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-8"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-8"></span></p>
-                        <p>Acessório: <span id="acessorio-8"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-8')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-9" onclick="selecionarPersonagem('personagem-9')">
-                    <img src="src/images/joaquim.png" alt="joaquim">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-9"></span></p>
-                        <p>Idade: <span id="idade-9"></span></p>
-                        <p>Altura: <span id="altura-9"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-9"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-9"></span></p>
-                        <p>Acessório: <span id="acessorio-9"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-9')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-10" onclick="selecionarPersonagem('personagem-10')">
-                    <img src="src/images/jose.png" alt="jose">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-10"></span></p>
-                        <p>Idade: <span id="idade-10"></span></p>
-                        <p>Altura: <span id="altura-10"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-10"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-10"></span></p>
-                        <p>Acessório: <span id="acessorio-10"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-10')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-11" onclick="selecionarPersonagem('personagem-11')">
-                    <img src="src/images/julia.png" alt="julia">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-11"></span></p>
-                        <p>Idade: <span id="idade-11"></span></p>
-                        <p>Altura: <span id="altura-11"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-11"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-11"></span></p>
-                        <p>Acessório: <span id="acessorio-11"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-11')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-12" onclick="selecionarPersonagem('personagem-12')">
-                    <img src="src/images/kimberlly.png" alt="kimberlly">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-12"></span></p>
-                        <p>Idade: <span id="idade-12"></span></p>
-                        <p>Altura: <span id="altura-12"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-12"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-12"></span></p>
-                        <p>Acessório: <span id="acessorio-12"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-12')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-13" onclick="selecionarPersonagem('personagem-13')">
-                    <img src="src/images/marcia.png" alt="marcia">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-13"></span></p>
-                        <p>Idade: <span id="idade-13"></span></p>
-                        <p>Altura: <span id="altura-13"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-13"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-13"></span></p>
-                        <p>Acessório: <span id="acessorio-13"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-13')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-14" onclick="selecionarPersonagem('personagem-14')">
-                    <img src="src/images/marina.png" alt="marina">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-14"></span></p>
-                        <p>Idade: <span id="idade-14"></span></p>
-                        <p>Altura: <span id="altura-14"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-14"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-14"></span></p>
-                        <p>Acessório: <span id="acessorio-14"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-14')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-15" onclick="selecionarPersonagem('personagem-15')">
-                    <img src="src/images/mikaela.png" alt="mikaela">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-15"></span></p>
-                        <p>Idade: <span id="idade-15"></span></p>
-                        <p>Altura: <span id="altura-15"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-15"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-15"></span></p>
-                        <p>Acessório: <span id="acessorio-15"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-15')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-16" onclick="selecionarPersonagem('personagem-16')">
-                    <img src="src/images/neusa.png" alt="neusa">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-16"></span></p>
-                        <p>Idade: <span id="idade-16"></span></p>
-                        <p>Altura: <span id="altura-16"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-16"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-16"></span></p>
-                        <p>Acessório: <span id="acessorio-16"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-16')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-            
-            <div class="card">
-                <button class="personagens personagem-17" onclick="selecionarPersonagem('personagem-17')">
-                    <img src="src/images/nicolas.png" alt="nicolas">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-17"></span></p>
-                        <p>Idade: <span id="idade-17"></span></p>
-                        <p>Altura: <span id="altura-17"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-17"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-17"></span></p>
-                        <p>Acessório: <span id="acessorio-17"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-17')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-18" onclick="selecionarPersonagem('personagem-18')">
-                    <img src="src/images/patricia.png" alt="patricia">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-18"></span></p>
-                        <p>Idade: <span id="idade-18"></span></p>
-                        <p>Altura: <span id="altura-18"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-18"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-18"></span></p>
-                        <p>Acessório: <span id="acessorio-18"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-18')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-19" onclick="selecionarPersonagem('personagem-19')">
-                    <img src="src/images/violeta.png" alt="violeta">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-19"></span></p>
-                        <p>Idade: <span id="idade-19"></span></p>
-                        <p>Altura: <span id="altura-19"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-19"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-19"></span></p>
-                        <p>Acessório: <span id="acessorio-19"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-19')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-
-            <div class="card">
-                <button class="personagens personagem-20" onclick="selecionarPersonagem('personagem-20')">
-                    <img src="src/images/vitor.png" alt="vitor">
-                    <div class="descricaoPg">
-                        <p>Nome: <span id="nome-20"></span></p>
-                        <p>Idade: <span id="idade-20"></span></p>
-                        <p>Altura: <span id="altura-20"></span></p>
-                        <p>Cor do cabelo: <span id="cabelo-20"></span></p>
-                        <p>Cor dos Olhos: <span id="olhos-20"></span></p>
-                        <p>Acessório: <span id="acessorio-20"></span></p>
-                    </div>
-                    <button onclick="eliminarPersonagem('personagem-20')" class="eliminar">Eliminar Personagem</button>
-                </button>
-            </div>
-        </div>
-
-        <button class="inicio" onclick="iniciarGame()">Pronto, vamos Jogar!</button>
-
+        </section>
     </main>
     <script src="src/js/main.js"></script>
 </body>
